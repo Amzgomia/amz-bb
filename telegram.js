@@ -3,7 +3,7 @@ require('dotenv').config();
 const token = process.env.TELEGRAM_BOT_TOKEN;
 const username = String(process.env.TELEGRAM_BOT_USERNAME || 'bbamz_bot').replace(/^@/, '');
 const support = String(process.env.SUPPORT_USERNAME || 'amzbb_support').replace(/^@/, '');
-const appUrl = process.env.APP_URL || 'https://example.com';
+const appUrl = 'https://amz-bb.onrender.com';
 
 async function tg(method, body) {
   if (!token) throw new Error('TELEGRAM_BOT_TOKEN is not configured');
