@@ -1,5 +1,8 @@
 {
   "name":"amz-bb-professional","version":"1.0.0","private":true,"main":"src/server.js",
+  "engines": {
+  "node": "22.x"
+},
   "scripts":{"start":"node src/server.js","bot":"node src/telegram.js"},
   "engines":{"node":">=18"},
   "dependencies":{"better-sqlite3":"^11.10.0","dotenv":"^16.6.1","express":"^5.1.0","helmet":"^8.1.0","morgan":"^1.10.0","razorpay":"^2.9.6","node-telegram-bot-api":"^0.66.0"}
